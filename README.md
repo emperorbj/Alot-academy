@@ -1,1 +1,0 @@
-# Alot-academy
