@@ -52,7 +52,7 @@ Contributions are always welcome!
 ## Lessons Learned
 
 1. Making beautiful styling with Tailwind utility classes.
-2. Appling React router in page routing
+2. Applying React router in page routing
 3. Importing assets from figma
 
 ## Challenges
