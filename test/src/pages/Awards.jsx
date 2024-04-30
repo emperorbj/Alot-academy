@@ -108,7 +108,7 @@ function Awards() {
                 <div className="grid grid-cols-4 gap-x-4">
                     {
                         awards.map((product) => (
-                            <Product product={product} />
+                            <Product key={product.id} product={product} />
                         ))
                     }
                 </div>

@@ -1,8 +1,47 @@
+import Menu from '../assets/vectors/menu.png';
+import Dribble from '../assets/vectors/dribbble.png';
+import Shirt from '../assets/vectors/circum_shirt.png';
+import Cup from '../assets/vectors/cup.png';
+import Cake from '../assets/vectors/cake.png';
+import Brush from '../assets/vectors/brush.png';
+import Kit from '../assets/vectors/ph_first-aid-kit-light.png';
+import { Link }  from "react-router-dom"
 const Header = () => {
     return (
-        <div className='grid grid-cols-3 px-10'>
-            <div className="">
-
+        <div className='grid grid-cols-3 px-10 '>
+            <div className="mt-[100px] flex flex-col gap-4 mr-3 w-[400px]">
+                <div className=" flex  w-[370px] rounded-md h-[50px] bg-slate-800 p-2">
+                    <img className='ml-[10px]  text-slate-300 w-[35px] h-[35px]' src={Menu} alt="" />
+                    <p className='ml-[10px]  text-slate-300 text-2xl font-normal'>Categories</p>
+                </div>
+                <Link to='/awards'>
+                <div className="flex w-[370px] rounded-md h-[50px] bg-slate-800 p-2">
+                    <img className='ml-[10px]  text-slate-300 w-[35px] h-[35px]' src={Cup} alt="" />
+                    <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Awards</p>
+                </div>
+                </Link>
+                <Link to='/decorations'>
+                <div className="flex w-[370px] rounded-md h-[50px] bg-slate-800 p-2">
+                    <img className='ml-[10px]  text-slate-300 w-[35px] h-[35px]' src={Brush} alt="" />
+                    <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Decorations</p>
+                </div>
+                </Link>
+                <div className="flex w-[370px] rounded-md h-[50px] bg-slate-800 p-2">
+                    <img className='ml-[10px]  text-slate-300 w-[35px] h-[35px]' src={Shirt} alt="" />
+                    <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Uniforms</p>
+                </div>
+                <div className="flex w-[370px] rounded-md h-[50px] bg-slate-800 p-2">
+                    <img className='ml-[10px]  text-slate-300 w-[35px] h-[35px]' src={Kit} alt="" />
+                    <p className='ml-[10px]  text-slate-300 text-xl font-normal'>First Aid</p>
+                </div>
+                <div className="flex w-[370px] rounded-md h-[50px] bg-slate-800 p-2">
+                    <img className='ml-[10px]  text-slate-300 w-[35px] h-[35px]' src={Cake} alt="" />
+                    <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Refreshments</p>
+                </div>
+                <div className="flex w-[370px] rounded-md h-[50px] bg-slate-800 p-2">
+                    <img className='ml-[10px]  text-slate-300 w-[35px] h-[35px]' src={Dribble} alt="" />
+                    <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Tools and Equipment</p>
+                </div>
             </div>
             <div className="col-span-2">
                 <div className="p-2">

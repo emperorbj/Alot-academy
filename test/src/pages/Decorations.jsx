@@ -135,7 +135,7 @@ function Decorations() {
                 <div className="grid grid-cols-4 gap-x-4">
                     {
                         decorations.map((product) => (
-                            <Product product={product} />
+                            <Product key={product.id} product={product} />
                         ))
                     }
                 </div>
