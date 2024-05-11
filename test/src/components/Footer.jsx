@@ -37,7 +37,7 @@ const Footer = () => {
                         </div>
 
                         <div className="py-10">
-                            <p className="text-[#EEEFF8]">© 2023 Encentral solutions. All Rights Reserved.</p>
+                            <p className="text-[#EEEFF8]">© 2023 My side Project. All Rights Reserved.</p>
                         </div>
                     </div>
                     <div>

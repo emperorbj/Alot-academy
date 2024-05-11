@@ -1,7 +1,6 @@
-import React from "react";
+
 import Navbar from "./Navbar";
-import Google from '../assets/google.png';
-import Facebook from '../assets/facebook.png';
+
 import Help from '../assets/Property 34.png';
 import Vector1 from '../assets/vectors/Vector (1).png';
 import Vector2 from '../assets/vectors/Vector (2).png';

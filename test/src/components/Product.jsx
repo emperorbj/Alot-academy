@@ -5,7 +5,7 @@ const Product = ({ product }) => {
         <div className='h-[573px] rounded-lg bg-black mt-4 shadow-lg'>
             <div className='w-100 h-[374px] rounded-lg bg-cover bg-center mb-4' style={{ backgroundImage: `url(${product.image})` }} >
             </div>
-            <h3 className="text-2xl">{product.name}</h3>
+            <h3 className="text-2xl text-white">{product.name}</h3>
             <h3 className='text-3xl font-bold text-[#DDDFF1]'>N {product.price}</h3>
             <ProgressBar percent={(product.have / product.expected) * 100} />
             <p className='text-[#CED0E4] text-sm flex items-center'>

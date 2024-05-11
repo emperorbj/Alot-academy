@@ -26,10 +26,12 @@ const Header = () => {
                     <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Decorations</p>
                 </div>
                 </Link>
+                <Link to='/uniforms'>
                 <div className="flex w-[300px] rounded-tr-2xl hover:bg-yellow-600 hover:scale-110 rounded-bl-2xl transition-[.5s] h-[50px] bg-slate-900 p-2">
                     <img className='ml-[10px] w-[35px] h-[35px]' src={Shirt} alt="" />
                     <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Uniforms</p>
                 </div>
+                </Link>
                 <div className="flex w-[300px] rounded-tr-2xl hover:bg-yellow-600 hover:scale-110 rounded-bl-2xl transition-[.5s] h-[50px] bg-slate-900 p-2">
                     <img className='ml-[10px] w-[35px] h-[35px]' src={Kit} alt="" />
                     <p className='ml-[10px]  text-slate-300 text-xl font-normal'>First Aid</p>
@@ -68,7 +70,7 @@ const Header = () => {
                                 </div>
                                 <div className='text-left py-5 px-4'>
                                     <h2 className='text-[#6B6E8D] text-2xl transition-[.5s] mb-2'>08 April 2023</h2>
-                                    <p className='text-gray-200'> houses compete in Long Tennis, Football, Basket and volley b[.5s]</p>
+                                    <p className='text-gray-200'> houses compete in Long Tennis, Football, Basket and volley ball</p>
                                 </div>
                                 <div className='text-left py-5 px-4 border border-t-0 border-r-0 border-b-0 border-s-gray-200'>
                                     <h2 className='text-[#6B6E8D] text-2xl transition-[.5s] mb-2'>09 April 2023</h2>

@@ -4,6 +4,7 @@ import Login from './components/Login'
 import Home from './components/Home';
 import Awards from './pages/Awards';
 import Decorations from './pages/Decorations';
+import Uniforms from './pages/Uniforms';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <Route path="/login" element={<Login/>} />
             <Route path="/awards" element={<Awards/>} />
             <Route path="/decorations" element={<Decorations/>} />
+            <Route path="/uniforms" element={<Uniforms/>} />
           </Routes>
         </BrowserRouter>
         {/* <Login/> */}
