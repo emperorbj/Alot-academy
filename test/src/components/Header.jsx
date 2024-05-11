@@ -68,11 +68,11 @@ const Header = () => {
                                 </div>
                                 <div className='text-left py-5 px-4'>
                                     <h2 className='text-[#6B6E8D] text-2xl transition-[.5s] mb-2'>08 April 2023</h2>
-                                    <p className='text-gray-200'>[.5s] houses complete in Long Tennis, Footb[.5s], Basket b[.5s] and volley b[.5s]</p>
+                                    <p className='text-gray-200'> houses compete in Long Tennis, Football, Basket and volley b[.5s]</p>
                                 </div>
                                 <div className='text-left py-5 px-4 border border-t-0 border-r-0 border-b-0 border-s-gray-200'>
                                     <h2 className='text-[#6B6E8D] text-2xl transition-[.5s] mb-2'>09 April 2023</h2>
-                                    <p className='text-gray-200'>Hand b[.5s], Thug of war, Scrabble, chess, and Monopoly watch party</p>
+                                    <p className='text-gray-200'>Hand ball, Thug of war, Scrabble, chess, and Monopoly watch party</p>
                                 </div>
                             </div>
                         </div>

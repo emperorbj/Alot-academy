@@ -58,15 +58,13 @@ const Login = () => {
                     </div>
                     <div className="flex flex-col">
                         {/* submit button */}
-                        <button className="bg-[#FBE25C] mt-4 w-[421px] h-[40px] text-2xl font-semibold rounded-lg" type="submit">SIGN IN</button>
+                        <button className="bg-[#FBE25C] mt-4 w-[421px] h-[50px] text-2xl font-semibold rounded-lg" type="submit">SIGN IN</button>
                         <button className="w-[421px] mt-1 h-[30px] text-xl font-normal text-slate-200">Or continue with</button>
-                        <div id="google" className=" flex justify-center w-[421px] py-2  bg-slate-800 mt-1 h-[35px] text-lg text-slate-200 rounded-lg shadow-lg">
-                            <img src={Google} alt="" height={10} width={15}/>
-                            <p className="ml-[10px] mt-[-4px]">Google</p>
+                        <div id="google" className=" flex items-center justify-center w-[421px]  bg-slate-800 mt-1 h-[50px] rounded-lg shadow-lg">
+                            <p className="ml-[10px] text-center font-medium text-green-700 text-2xl"><span className="text-red-600">Go</span><span className="text-blue-600">o</span>gl<span className="text-yellow-600">e</span></p>
                         </div>
-                        <div id="facebook" className="flex justify-center py-2 w-[421px] bg-slate-800 mt-2 mb-6 h-[35px] text-lg text-slate-200 rounded-lg shadow-lg">
-                            <img src={Facebook} alt="" height={10} width={15}/>
-                            <p className="ml-[10px] mt-[-4px]">Facebook</p>
+                        <div id="facebook" className="flex items-center justify-center w-[421px] bg-blue-600 mt-2 mb-6 h-[50px] rounded-lg shadow-lg">
+                            <p className="ml-[10px] text-2xl text-white font-medium">Facebook</p>
                         </div>
                     </div>
                 </form>
