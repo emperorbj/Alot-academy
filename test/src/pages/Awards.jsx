@@ -1,6 +1,7 @@
 import Footer from '../components/Footer';
 import Product from '../components/Product'
 import RecentlyViewed from '../components/RecentlyViewed';
+import Navbar from '../components/Navbar';
 
 
 let awards = [
@@ -96,9 +97,11 @@ let recently = [
 function Awards() {
 
     return (
+        <>
+        <Navbar/>
         <div className='bg-[#15141F] space-y-6'>
             <div className='p-4 space-y-4 px-10'>
-                <div className="flex justify-between mb-2">
+                <div className="flex justify-between mt-[100px] mb-2">
                     <div>
                         <h2 className='text-3xl font-bold text-[#EEEFF8]'>Awards</h2>
                         <p className='text-[#DDDFF1]'>16 items found</p>
@@ -116,6 +119,8 @@ function Awards() {
             <RecentlyViewed recently={recently} />
             <Footer />
         </div>
+        </>
+
     )
 }
 

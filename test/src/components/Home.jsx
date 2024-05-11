@@ -1,4 +1,4 @@
-
+import Footer from '../components/Footer';
 import Header from './Header'
 import FAQS from './FAQS'
 import Product from './Product'
@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Navbar/>
-            <div className='bg-[#15141F] space-y-6'>
+            <div className=' bg-neutral-950 space-y-6'>
             <Header/>
             <div className='p-4 text-[#EEEFF8] space-y-4 px-10'>
                 <div className="flex justify-between mb-2">
@@ -105,7 +105,8 @@ const Home = () => {
                 </div>
             </div>
             <FAQS />
-            </div>    
+            <Footer />
+            </div>  
         </div>        
     )
 }
