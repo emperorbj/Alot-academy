@@ -92,7 +92,7 @@ let recently = [
         expected: 90,
     },
 ]
-// Awards component
+// Adding Awards component
 function Awards() {
 
     return (
