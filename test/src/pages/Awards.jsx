@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 
 let awards = [
     {
-        image: '/a45f1f9cb7bf1deb659c25ba8309f435.jpeg',
+        image: 'https://images.unsplash.com/photo-1575466526459-45d42866b062?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         name: "Gold Medals",
         price: '5, 000',
         have: 10,
@@ -34,28 +34,28 @@ let awards = [
         expected: 1,
     },
     {
-        image: '/a45f1f9cb7bf1deb659c25ba8309f435.jpeg',
+        image: 'https://images.unsplash.com/photo-1550438655-400744b9fefc?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         name: "Gold Medals",
         price: '5, 000',
         have: 10,
         expected: 20,
     },
     {
-        image: '/8d56fe9d94553558501dde4bde61a481.jpeg',
+        image: 'https://images.unsplash.com/photo-1561580726-1bd7aed04eb0?q=80&w=1485&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         name: "Gold Cup",
         price: '25, 000',
         have: 1,
         expected: 1,
     },
     {
-        image: '/a45f1f9cb7bf1deb659c25ba8309f435.jpeg',
+        image: 'https://images.unsplash.com/photo-1592689321206-3df781b6811e?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         name: "Bronze Medals",
         price: '3, 000',
         have: 10,
         expected: 20,
     },
     {
-        image: '/ea18657f0ade0e070adc2002499b6cb8.jpeg',
+        image: 'https://images.unsplash.com/photo-1514820720301-4c4790309f46?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         name: "Silver Cup",
         price: '15, 000',
         have: 1,
@@ -65,7 +65,7 @@ let awards = [
 
 let recently = [
     {
-        image: '/bdbb9c1b4fffd88d874b98cd385b4375.jpeg',
+        image: 'https://images.unsplash.com/photo-1607346704652-de050550a758?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         name: "Ballons",
         price: '20, 000',
         have: 90,

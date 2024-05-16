@@ -36,14 +36,12 @@ const Header = () => {
                     <img className='ml-[10px] w-[35px] h-[35px]' src={Kit} alt="" />
                     <p className='ml-[10px]  text-slate-300 text-xl font-normal'>First Aid</p>
                 </div>
+                <Link to='/refreshment'>
                 <div className="flex w-[300px] rounded-tr-2xl hover:bg-yellow-600 hover:scale-110 rounded-bl-2xl transition-[.5s] h-[50px] bg-slate-900 p-2">
                     <img className='ml-[10px] w-[35px] h-[35px]' src={Cake} alt="" />
                     <p className='ml-[10px] text-slate-300 text-xl font-normal'>Refreshments</p>
                 </div>
-                <div className="flex w-[300px] rounded-tr-2xl hover:bg-yellow-600 hover:scale-110 rounded-bl-2xl transition-[.5s] h-[50px] bg-slate-900 p-2">
-                    <img className='ml-[10px] w-[35px] h-[35px]' src={Dribble} alt="" />
-                    <p className='ml-[10px]  text-slate-300 text-xl font-normal'>Tools and Equipment</p>
-                </div>
+                </Link>
             </div>
             <div className="col-span-2 ">
                 <div className="p-1 mt-2">
