@@ -1,4 +1,6 @@
 
+
+//  importing images from assets 
 import Navbar from "./Navbar";
 
 import Help from '../assets/Property 34.png';
