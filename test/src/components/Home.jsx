@@ -3,7 +3,7 @@ import Header from './Header'
 import FAQS from './FAQS'
 import Product from './Product'
 import Navbar from './Navbar'
-
+//home component
 const Home = () => {
     return (
         <div>
