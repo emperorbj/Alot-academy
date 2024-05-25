@@ -1,4 +1,5 @@
 import ProgressBar from "./ProgressBar";
+import PropTypes from 'prop-types'; // Import PropTypes for validation
 
 const Product = ({ product }) => {
     return (
