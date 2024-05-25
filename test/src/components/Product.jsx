@@ -2,6 +2,16 @@ import ProgressBar from "./ProgressBar";
 import PropTypes from 'prop-types'; // Import PropTypes for validation
 
 const Product = ({ product }) => {
+      // Prop validation using PropTypes
+    Product.propTypes = {
+        product: PropTypes.shape({
+        image: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired,
+        price: PropTypes.number.isRequired,
+        have: PropTypes.number.isRequired,
+        expected: PropTypes.number.isRequired,
+        }).isRequired,
+    };
     return (
         <div className='h-[573px] rounded-lg bg-black mt-4 shadow-lg'>
             <div className='w-100 h-[374px] rounded-lg bg-cover bg-center mb-4' style={{ backgroundImage: `url(${product.image})` }} >
