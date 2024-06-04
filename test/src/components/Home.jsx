@@ -20,7 +20,7 @@ const Home = () => {
                     see all
                     </a>
                 </div>
-                <div className="grid grid-cols-4 gap-x-4">
+                <div className="grid md:grid-cols-2 md:gap-x-4 lg:grid-cols-4 lg:gap-x-4">
                     {
                     [
                         {
@@ -67,7 +67,7 @@ const Home = () => {
                     see all
                     </a>
                 </div>
-                <div className="grid grid-cols-4 gap-x-4">
+                <div className="grid md:grid-cols-2 md:gap-x-4 lg:grid-cols-4 lg:gap-x-4">
                     {
                     [
                         {

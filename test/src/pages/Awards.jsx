@@ -108,7 +108,7 @@ function Awards() {
                     </div>
                     <p><span className='text-[#EEEFF8]'>Sort by: </span><span className='text-[#6B6E8D]'>Quantity</span></p>
                 </div>
-                <div className="grid grid-cols-4 gap-x-4">
+                <div className="grid md:grid-cols-2 md:gap-x-4 lg:grid-cols-4 lg:gap-x-4">
                     {
                         awards.map((product) => (
                             <Product key={product.id} product={product} />
